@@ -1,0 +1,39 @@
+.hero {
+  display: flex;
+  align-items: center;
+  background-color: rgb(198, 228, 214);
+  border-radius: 1rem;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.lato {
+  font-family: "Lato", serif;
+}
+
+.button-green {
+  background-color: rgb(0, 106, 80);
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+.hero h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hero p{
+    color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
