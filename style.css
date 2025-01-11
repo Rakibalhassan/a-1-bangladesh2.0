@@ -47,11 +47,37 @@ text-align: left;
     display: flex;
     gap: 10px;
 }
-.vision .card{
+
+
+
+
+.vision .card {
     /* border: 1px solid red; */
     border-radius: 1rem;
     padding: 1rem;
-}
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation for hover effects */
+  }
+  
+  .vision .card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+  }
+  
+  .button-green {
+    background-color: rgb(0, 106, 80);
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer; /* Pointer cursor to indicate clickability */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth animation for hover effects */
+  }
+  
+  .button-green:hover {
+    background-color: rgb(0, 90, 70); /* Darken the button on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+  }
+  
 
 .card h4{
     color: rgba(14, 14, 14, 0.8);
