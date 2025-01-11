@@ -37,3 +37,55 @@ line-height: 29px;
 letter-spacing: 0%;
 text-align: left;
 }
+
+
+
+/* vision section */
+
+
+.vision .cards-parent{
+    display: flex;
+    gap: 10px;
+}
+.vision .card{
+    /* border: 1px solid red; */
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.card h4{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.card p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.card button{
+    margin-top: 2rem;
+}
+
+
+.card1{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.card2{
+    background-color: rgb(198, 228, 214);
+
+}
+.card3{
+    background-color: rgb(247, 235, 207);
+}
+/* .recent news */
